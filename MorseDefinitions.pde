@@ -1,4 +1,5 @@
-class Morse { //<>// //<>// //<>// //<>// //<>// //<>//
+class Morse { //<>//
+  //Declare Variables
   StringDict encoding;
   StringDict decoding;
 
@@ -9,7 +10,10 @@ class Morse { //<>// //<>// //<>// //<>// //<>// //<>//
   float speed = 150;
   float frequency = 900.0;
   
+  //Initialize StringDicsts so I can convert between alphanumeric and morse.
   Morse() {
+    
+    
     encoding = new StringDict();
     encoding.set("a", ".-");
     encoding.set("b", "-...");
@@ -189,11 +193,14 @@ class Morse { //<>// //<>// //<>// //<>// //<>// //<>//
         before++;
       }
     }
+    print("\n");
     translation = trans;
     return trans;
   }
 
   void play(String trans, SinOsc osc) {
+    if(trans.length() == 0)
+      return;
     if (trans.indexOf("^", 0) == -1) //<>//
       trans(encode(trans));
       
