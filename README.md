@@ -13,6 +13,6 @@ I'm presenting this project because it presents specific skills.
 ## Installation
 Three things need to be done to run the program.
 1. Download Processing which is available from https://processing.org/
-2. In processing, go to sketch -> immport library -> add library. Then search and install the `G4P` and `Sound` Library.
+2. In processing, go to sketch -> import library -> add library. Then search and install the `G4P` and `Sound` Library.
 3. Open MorseCode.pde and click run.
 Note: Due to limitations of the G4P library the GUI may appear very small on high density displays.
