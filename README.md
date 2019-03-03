@@ -1,6 +1,8 @@
 # Morse-Code-Translator
 This is a project I made over a couple of days in Processing. It transforms text into international standard (M.1677) morse code  which is output to speakers. This presents as a small GUI window that allows you to enter the text you want translated. It also has sliders that let you adjust the speed and frequency of the sound.
 
+![Presentation of the user interface](GUI_Example.PNG)
+
 ## So what?
 I'm presenting this project because it presents specific skills.
 * An ability to organize and comment code into understandable chunks.
